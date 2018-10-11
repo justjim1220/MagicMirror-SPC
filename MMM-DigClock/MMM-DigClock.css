@@ -1,0 +1,50 @@
+@import url(//db.onlinewebfonts.com/c/1467e2d37ec60cc50117a8db7c24f626?family=DS-Digital);
+
+/* @-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
+.MMM-DigClock {
+  width: 800px;
+  padding-bottom: 10px;
+  align-content: center;
+}
+
+.MMM-DigClock .date {
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: 5px;
+  font-weight: 600;
+  color: #ff0000;
+}
+
+.MMM-DigClock .time {
+  font-size: 300px;
+  line-height: 305px;
+  letter-spacing: 5px;
+  font-family: DS-Digital;
+  font-weight: bolder;
+  color: #0084ff;
+}
+
+.MMM-DigClock .week {
+  font-size: 75px;
+  line-height: 90px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: #0000ff;
+}

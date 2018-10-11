@@ -1,0 +1,111 @@
+/*****************************************************
+ * Magic Mirror                                      *
+ * Custom CSS                                        *
+ *                                                   *
+ * By Michael Teeuw http://michaelteeuw.nl           *
+ * MIT Licensed.                                     *
+ *                                                   *
+ * Add any custom CSS below.                         *
+ * Changes to this files will be ignored by GIT. *
+ *****************************************************/
+
+#CALEXT_month.tableStyle {
+   max-width: 100%;
+   width: 100%;
+   background-color:#222;
+ }
+
+
+
+#CALEXT_month.tableStyle .event.endHere .eventContainer{
+  border: none;
+  border-radius: 0;
+}
+
+#CALEXT_month.tableStyle .event.startHere {
+  border: none;
+  border-radius: 0;
+}
+
+
+#CALEXT_month.tableStyle td {
+  /*border: none;*/
+}
+
+#CALEXT_month.tableStyle td.today {
+  background-color: #FFF;
+}
+
+#CALEXT_month.tableStyle .monthTitle {
+  display: none;
+}
+
+#CALEXT_month.tableStyle .slot .header {
+  border: none;
+}
+
+#CALEXT_month.tableStyle .today {
+  border: none;
+}
+
+#CALEXT_month.tableStyle th {
+  font-size: 60%;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+#CALEXT_month.tableStyle  .thisyear .header,
+#CALEXT_month.tableStyle  .thismonth .header,
+#CALEXT_month.tableStyle  .thisweek .header {
+  background: none;
+}
+
+
+#CALEXT_month.tableStyle .thismonth.day_6 .header,
+#CALEXT_month.tableStyle .thismonth.day_7 .header {
+  background: none;
+  color: inherit;
+}
+
+#CALEXT_month.tableStyle .event .symbol {
+  display: none;
+}
+
+#CALEXT_month.tableStyle .event.fulldayevent .eventTime {
+  display: none;
+}
+
+#CALEXT_month.tableStyle .event .eventTime {
+  display: block;
+  font-size: 0.6em;
+}
+
+#CALEXT_month.tableStyle .event .eventContainer {
+  background-color: none;
+}
+
+#CALEXT_month.tableStyle .day_7,
+#CALEXT_month.tableStyle .day_6 {
+  background: inherit;
+  color: inherit;
+}
+
+#CALEXT_month.tableStyle .thismonth.day_6 .header .title,
+#CALEXT_month.tableStyle .thismonth.day_7 .header .title {
+  color: inherit;
+}
+
+
+#CALEXT_month.tableStyle .thismonth {
+  background: none;
+}
+
+#CALEXT_month.tableStyle tr.thisweek {
+  background: none;
+}
+
+#CALEXT_month.tableStyle .thismonth .header .title {
+  color: inherit;
+}

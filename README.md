@@ -7,6 +7,8 @@ create a new folder and name it modules
 cd MagicMirror/modules
 git clone https://github.com/justjim1220/shorepointechiropractic.git
 
+move the module folders to the empty modules you created in step 2
+
 install the modules...
 
 cd calendar_monthly

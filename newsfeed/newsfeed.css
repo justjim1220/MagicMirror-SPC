@@ -1,0 +1,12 @@
+
+.newsfeed .marquee {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    -webkit-transition: marquee 121s linear infinite;
+    -moz-transition: marquee 121s linear infinite;
+    -o-transition: marquee 121s linear infinite;
+    transition: marquee 121s linear infinite;
+}

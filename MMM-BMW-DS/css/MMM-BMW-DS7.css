@@ -1,0 +1,42 @@
+/* Copy and paste any or all of these css entries into your custom.css file inside your
+ * css folder. The functions are annotated to make things as easy as possible for you.
+ * Use any colors you want! Go to - "http://htmlcolorcodes.com/color-picker/"
+ * Pick your color, copy and paste the HEX number. Example - #62FF00 = bright green.
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Macondo+Swash+Caps');
+
+.MMM-BMW-DS {
+  padding-top: 20px;
+}
+
+.MMM-BMW-DS .header {
+  color: white;
+}
+
+.MMM-BMW-DS .image {
+  width: 3%;
+  vertical-align: middle;
+}
+
+.MMM-BMW-DS .current {
+  color: rgb(44, 44, 253);
+  font-family: "Macondo Swash Caps", cursive;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.MMM-BMW-DS .summary {
+  color: rgb(44, 44, 255);
+  font-family: "Macondo Swash Caps", cursive;
+  font-size: 1.75em;
+  font-weight: 600;
+  padding: 10px 0 10px 0;
+}
+
+.MMM-BMW-DS .daily {
+  color: rgb(82, 255, 232);
+  font-family: "Macondo Swash Caps", cursive;
+  font-weight: 600;
+  font-size: 1.75em;
+}
